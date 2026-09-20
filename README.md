@@ -64,3 +64,33 @@ project/
 ├── tsconfig.node.json
 ├── postcss.config.js
 └── .gitignore
+
+## 🚀 Installation and Setup
+1. Clone the repository
+git clone https://github.com/YOUR-USERNAME/project-hospitalManagement.git
+2. Open the project directory
+cd project-hospitalManagement
+
+Since the application is currently inside the project folder:
+
+cd project
+3. Install dependencies
+npm install
+4. Start the development server
+npm run dev
+5. Open the application
+
+Open the URL displayed in the terminal, usually:
+
+http://localhost:5173
+## 🗄️ Database
+
+The project uses Supabase for database-related functionality.
+
+Database migration files are available in:
+
+supabase/migrations/
+
+Environment variables should be configured locally using a .env file.
+
+⚠️ Never upload passwords, API secrets, private keys, or other sensitive credentials to GitHub.
